@@ -10,8 +10,9 @@ int main(){
         std::cin>>answer;
         answer == "L" ||answer == "S" ? yeet = false : yeet = true; 
     
-        if(yeet == true);
+        if(yeet == true){
             std::cout<<"Invalid Input!"<<std::endl;
+        }
 
     }while(yeet);
 
